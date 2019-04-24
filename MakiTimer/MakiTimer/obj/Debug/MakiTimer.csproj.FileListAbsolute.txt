@@ -1,0 +1,16 @@
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\bin\Debug\MakiTimer.exe
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\bin\Debug\MakiTimer.pdb
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\App.g.cs
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer_MarkupCompile.cache
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer_MarkupCompile.lref
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MainWindow.baml
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.g.resources
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.Properties.Resources.resources
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.csproj.GenerateResource.cache
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.exe
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer.pdb
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\bin\Debug\MakiTimer.exe.config
+C:\Users\Owner\source\repos\MakiTimer\MakiTimer\obj\Debug\MakiTimer_Content.g.cs

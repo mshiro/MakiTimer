@@ -1,0 +1,30 @@
+﻿<Window x:Class="MakiTimer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MakiTimer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Label x:Name="Message" Content="残り時間は" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="352,210,0,0" Height="134" Width="428" FontSize="48"/>
+        <Label x:Name="NowTime" Content="現在時刻は" Height="24" Margin="0,4,4,0" VerticalAlignment="Top" Width="305" HorizontalAlignment="Right" HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        
+        <Button x:Name="MDownBtn" Content="▼" HorizontalAlignment="Left" Height="80" Margin="10,30,0,0" VerticalAlignment="Top" Width="80" FontSize="36" Click="MLimitBtnClick"/>
+        <TextBox x:Name="MLimitTB" HorizontalAlignment="Left" Height="80" Margin="95,30,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="100" TextChanged="MLimitChanged" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="MUpBtn" Content="▲" HorizontalAlignment="Left" Height="80" Margin="200,30,0,0" VerticalAlignment="Top" Width="80" FontSize="36" Click="MLimitBtnClick"/>
+        
+        <Button x:Name="SDownBtn" Content="▼" HorizontalAlignment="Left" Height="80" Margin="10,117,0,0" VerticalAlignment="Top" Width="80" FontSize="36" Click="SLimitBtnClick"/>
+        <TextBox x:Name="SLimitTB" HorizontalAlignment="Left" Height="80" Margin="95,117,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="100" TextChanged="SLimitChanged" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="SUpBtn" Content="▲" HorizontalAlignment="Left" Height="80" Margin="200,117,0,0" VerticalAlignment="Top" Width="80" FontSize="36" Click="SLimitBtnClick"/>
+        
+        <Button x:Name="StartBtn" Content="START" HorizontalAlignment="Left" Margin="352,30,0,0" VerticalAlignment="Top" Width="140" Height="80" Click="Button_Click" FontSize="36"/>
+        <Button x:Name="ResetBtn" Content="RESET" HorizontalAlignment="Left" Margin="497,30,0,0" VerticalAlignment="Top" Width="140" Height="80" FontSize="36" Click="Button_Click"/>
+        <Button x:Name="PauseBtn" Content="PAUSE" HorizontalAlignment="Left" Margin="642,30,0,0" VerticalAlignment="Top" Width="140" Height="80" FontSize="36" Click="Button_Click"/>
+        
+        <Label Content="分" HorizontalAlignment="Left" Height="80" Margin="285,30,0,0" VerticalAlignment="Top" Width="62" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="秒" HorizontalAlignment="Left" Height="80" Margin="285,117,0,0" VerticalAlignment="Top" Width="62" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        
+
+    </Grid>
+</Window>
